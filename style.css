@@ -1,0 +1,31 @@
+*{
+    color:#fff;
+    text-shadow:0px 0px 1px #fff;
+}
+body{
+    background-color: #659dbd;
+}
+.clockdate-wrapper {
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+    
+}
+#clock span {
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    font-size:25px;
+    font-family:'Orbitron',sans-serif;
+}
